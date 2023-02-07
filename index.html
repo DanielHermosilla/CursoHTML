@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!-- HEAD -->
     <head>
         <title>Primera página web</title>
         <meta charset="utf-8">
@@ -7,29 +8,34 @@
         <meta name="description" content="Una página donde registro lo que voy aprendiendo en el desarrollo FrontEnd">
         <meta name="author" content="Daniel Hermosilla">
         <meta name="robots" content="index"> 
+        <link rel="icon" href="img/html5.ico">
     </head>
+
+    <!-- BODY -->
     <body>
+        <!-- HEADER -->
         <header>
+            <!-- NAVEGADOR -->
             <nav>
                 <ul>
                     <li><a href="index.html">Página principal</a></li>
                     <li><a href="pagina2.html">Página 2</a></li>
                     <li><a href="nosotros.html">Sobre mi</a></li>
-
                 </ul>
             </nav>
-    
         </header>
 
+        <!-- ARTICULO -->
         <article>
+
+            <!-- SECCIÓN 1 -->
             <section>
                 <h1>Mi Página Web</h1>
-                
                 <p>Aquí ire documentando los distintos elementos que voy aprendiendo en HTML</p>
-                
                 <a href="pagina2.html" target="_BLANK">Haz click aquí para más información</a> También puedes hacer <a href="#lorem">click aquí</a> para ir a un pedazo de texto sin sentido alguno.<br><br>
             </section>
 
+            <!-- SECCIÓN 2 -->
             <section>
                 <h3>Listas</h3>
                 <p>Esto es una lista <b>no numerada</b>, escrita bajo el comando <i>li</i>:</p>
@@ -49,20 +55,24 @@
                 <small>Chiquita</small>
             </section>
 
+            <!-- SECCIÓN 3 -->
             <section>
                 <h3>Imagenes</h3>
-                <p>
-                    Acá va la <b>imagen</b>:
-                </p>
+                <p>Acá va la <b>imagen</b></p>
+
+                <!-- IMAGEN -->
                 <img src="img/imagenhtml5.png" alt="Imagen de HTML5">
 
+                <!-- VIDEO -->
                 <h3>Video</h3>
                 <video src="img/video.mp4" controls="" width="400px"></video>
 
+                <!-- AUDIO -->
                 <h3>Audio</h3>
                 <audio src="img/backward.wav" controls=""></audio>
             </section>
 
+            <!-- SECCIÓN 4 -->
             <section>
                 <h3>Formulario</h3>
                     <form>
@@ -78,14 +88,17 @@
                         <input type="time">
                         <input type="button" value="Botón">
                         <input type="submit">
-
                     </form>
             </section>
         </article>
+
+        <!-- ASIDE -->
         <aside>
             <h2 id="lorem">Contenido extra</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repellat dolorem incidunt, nobis deleniti illo necessitatibus inventore, fuga unde pariatur laborum beatae eligendi exercitationem sed autem dolor. Excepturi, quia deserunt.</p>
         </aside>
+
+        <!-- FOOTER -->
         <footer>
             <h4>Copyright - Todos los derechos reservados</h4>
         </footer>
