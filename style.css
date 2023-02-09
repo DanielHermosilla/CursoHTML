@@ -4,6 +4,9 @@
 
 * {
     color: black;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+    font-weight: 100;
 }
 
 h1 {
@@ -16,10 +19,18 @@ h1 {
 }
 
 /* LOS ID DEBEN SER ÚNICOS */
-#element{
-    color: aqua !important;
+#parrafo{
+    color: brown !important;
 }
 
-.contact-form__titulo {
-    font-size: 80px;
+.contact-form{
+    font-size: 10px;
+    background-color: white;
+    width: 100vw;
+    height: 100vw;
+}
+
+/* PROPIEDADES DE TEXTO */
+.contact-form__titulo { 
+    font-size: 3em;
 }
