@@ -3,7 +3,7 @@
 /* } */
 
 * {
-    color: red;
+    color: black;
 }
 
 h1 {
@@ -17,5 +17,9 @@ h1 {
 
 /* LOS ID DEBEN SER ÚNICOS */
 #element{
-    color: aqua;
+    color: aqua !important;
+}
+
+.contact-form__titulo {
+    font-size: 80px;
 }
