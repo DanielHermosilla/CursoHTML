@@ -1,0 +1,21 @@
+/* selector { */
+    /* propiedad: valor; */
+/* } */
+
+* {
+    color: red;
+}
+
+h1 {
+    color: blue;
+} 
+
+/* LAS CLASES PUEDEN ABORDAR MUCHOS ELEMENTOS */
+.titulo-h2{
+    color:palegoldenrod;
+}
+
+/* LOS ID DEBEN SER ÚNICOS */
+#element{
+    color: aqua;
+}
